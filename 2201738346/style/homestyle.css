@@ -1,0 +1,175 @@
+body{
+    background-color: #ffe4c4;
+    margin: 0;
+}
+
+header{
+    background-color: #006400;
+}
+
+.first-header{
+    display: flex;
+}
+
+.second-header{
+    display: flex;
+    margin-left: 720px;
+}
+
+.headerword{
+   width: 400px;
+   height: 100px;
+   display: block;
+   margin-left: 720px;
+}
+
+ul li{
+    display: inline-block;
+    margin-top: 9px;
+    margin-right: 230px;
+}
+
+ul li a{
+    color: #daa520;
+    text-decoration-line: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.image{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 650px;
+    height: 350px;
+}
+
+.imax{
+    width: 120px;
+    height: 25px;
+    float: right;
+    margin-top: 300px;
+}
+
+.dolby{
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 300px;
+    margin-left: 40px;
+}
+
+.partner{
+    position: relative;
+    bottom: 380px;
+    right: 525px;
+}
+
+.partner-top{
+    color: #daa520;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    margin-left: 30cm;
+    bottom: 100px;
+}
+
+.caption{
+    position: absolute;
+    color: #006400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 1025px;
+    bottom: 13cm;
+}
+
+.caption p{
+    text-align: center;
+}
+
+.showing{
+    color: #006400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    padding-left: 750px;
+    /* text-align: center; */
+}
+
+.p1{
+    width: 280px;
+    height: 400px;
+    margin-left: 110px;
+}
+
+.p2{
+    width: 280px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.p3{
+    width: 280px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.p4{
+    width: 280px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.p5{
+    width: 280px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.poster{
+    border: #006400 solid 10px;
+    padding:15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer{
+    position: relative;
+    background-color: #006400;
+    top: 20px;
+}
+
+.footer-left{
+    color: #daa520;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.iconig{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding-left: 36cm;
+    padding-bottom: 2cm;
+    
+}
+
+.icontwt{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 2cm;
+}
+
+.iconfb{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 2cm;    
+}
+
+.img-show{
+    background-image: url(../quiz_assets/assets/cinema.jpg);
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 650px;
+    height: 350px;
+}
+
+.img-show:hover{
+    background-image: url(../quiz_assets/assets/bed.jpg);
+}
